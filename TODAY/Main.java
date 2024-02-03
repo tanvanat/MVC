@@ -10,3 +10,5 @@ public class Main {
         Control c = new Control(v, m);
     }
 }
+
+//Viewจะมีตัวเลือกให้2อย่างคือเลือกจองเเบบ
