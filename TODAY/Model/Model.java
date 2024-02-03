@@ -33,9 +33,7 @@ public class Model {
             for (Room room : rooms) {
                 if (!room.isChosen() && chosenRooms<=2) {
                     room.setChosen(true);
-                    //System.out.println("rooms: " + rooms);
                     chosenRooms++;
-                    //System.out.println(chosenRooms);
                     return "Choose " + gamekey + " " + room.getName();
                 }
 
